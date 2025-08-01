@@ -1,0 +1,7 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.out-of-code-insights/
+.vscode/
+ErrorCapture.csproj
+ErrorCapture.sln

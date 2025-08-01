@@ -1,0 +1,37 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="ErrorCapture"
+run/main_scene="uid://ct1vs41k64rmg"
+config/features=PackedStringArray("4.4", "C#", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+ErrorCapture="*res://addons/ErrorCapture/ErrorCapture.tscn"
+
+[debug]
+
+file_logging/enable_file_logging=true
+
+[dotnet]
+
+project/assembly_name="ErrorCapture"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/ErrorCapture/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

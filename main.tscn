@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://ct1vs41k64rmg"]
+
+[ext_resource type="Script" uid="uid://biurdubtmhn7e" path="res://Test.cs" id="1_ig7tw"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_ig7tw")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 382.0
+offset_top = 325.0
+offset_right = 680.0
+offset_bottom = 386.0
