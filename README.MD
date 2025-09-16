@@ -1,5 +1,7 @@
 ### **[简体中文](README_cn.md) | [English](README.MD)**
 
+**In Godot4.5 or higher, it is recommended to use a custom Logger achieve this function, see [GodotLoggerSimple](https://github.com/fangchudark/godot-logger-simple)**
+
 # Error Capture
 
 
