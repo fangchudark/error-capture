@@ -1,5 +1,7 @@
 ### **[简体中文](README_cn.md) | [English](README.MD)**
 
+**在Godot4.5或更高版本中，建议使用自定义Logger实现此功能，请参见[GodotLoggerSimple](https://github.com/fangchudark/godot-logger-simple)**
+---
 # Error Capture
 
 一个简单的插件，支持在运行时捕获错误信息，并显示在UI上。
